@@ -4,27 +4,56 @@ body {
     padding:0;
 }
 
+.nopad {
+    padding: 0px;
+}
+
 #logo {
-    background: teal;
+    background: #4aaaa5;
 }
 
 h1 {
     color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding: 20px;
+    font-size: 2rem;
+    weight: 600;
+}
+
+.nav-link {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.bottom-border {
+    border-bottom: solid 2px #ccc;
 }
 
 .main {
     background: #ffffff;
-    border: solid 2px #ccc;
+    border: solid 1px #ccc;
     padding: 20px;
     margin-top: 50px;
 }
 
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.bottom-margin {
+    margin-bottom: 30px;
+}
+
 #profile-photo {
     float: left;
-    height: 200px;
-    width: 200px;
     margin: 0px 20px 0px 0px;
+}
+
+.body-text {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 25px;
 }
 
 .footer {
@@ -40,6 +69,6 @@ h1 {
 .footer-text {
     color: #cccccc;
     font-size: 12px;
-    margin-top: 30px;
+    margin-top: 15px;
     text-align: center;
 }
