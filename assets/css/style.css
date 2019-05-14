@@ -17,7 +17,6 @@ h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     padding: 20px;
     font-size: 2rem;
-    weight: 600;
 }
 
 .nav-link {
@@ -80,6 +79,38 @@ textarea {
     resize: none;
     box-sizing: border-box;
     padding: 12px 20px;
+}
+
+.row .portfolio {
+    justify-content: space-around; 
+}
+
+.portfolio-item {
+    display: flex;
+    justify-content: center;
+/*    position: relative; */
+    margin: 20px 0px 0px; 
+}
+
+.portfolio-img {
+    height: 250px;
+    width: 300px;
+    flex-shrink: 0;
+}
+
+h3 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #fff;
+    text-align: center;
+}
+
+.portfolio-label {
+    position: absolute;
+    bottom: 15px;
+    width: 300px;
+    height: 60px;
+    background-color: #4aaaa5;
+    padding-top: 10px;
 }
 
 .footer {
